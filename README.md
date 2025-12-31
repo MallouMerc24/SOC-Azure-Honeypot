@@ -33,17 +33,14 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 
 For the "AFTER" metrics, Network Security Group were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by the built-in firewall as well as the Private Endpoint
 
-## Attack Maps Before Hardening / Security Controls
-![linux-ssh-auth-fail](https://github.com/art-wiju/Cloud-SOC-And-Honeynet/assets/132944565/11a55d03-bff9-477b-bb26-30d67d237a97)
-![nsg-malicious-allowed-in](https://github.com/art-wiju/Cloud-SOC-And-Honeynet/assets/132944565/1ba54d41-19c0-4bf3-afd9-f63528fa692b)
-![windows-rdp-auth-fail](https://github.com/art-wiju/Cloud-SOC-And-Honeynet/assets/132944565/980580a5-6a9d-43d3-9e85-5d4c03f690b6)
-
+## Attack Map Before Hardening / Security Controls
+<img width="1708" height="796" alt="image" src="https://github.com/user-attachments/assets/32c3d045-7e7f-4c5b-a14a-f0a88b2dbe95" />
 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 1/16/2024, 9:09:27 PM
-Stop Time 1/17/2024, 9:09:27 PM
+Start Time 12/28/2025, 02:54 PM
+Stop Time 12/29/2025, 02:54 PM
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -53,15 +50,11 @@ Stop Time 1/17/2024, 9:09:27 PM
 | SecurityIncident         | 215
 | AzureNetworkAnalytics_CL | 2793
 
-## Attack Maps Before Hardening / Security Controls
-
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
-
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 1/18/2024, 4:17:04 PM
-Stop Time	1/19/2024, 4:17:04 PM
+Start Time 1/29/2024, 5:30 PM
+Stop Time	1/30/2024, 5:30 PM
 
 | Metric                   | Count
 | ------------------------ | -----
